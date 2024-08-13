@@ -1,0 +1,72 @@
+[2024-08-12 20:21:33] [ ERROR] [OdontologoServiceTest:30] IO Exception: "java.nio.file.NoSuchFileException: CrearTablaBD.sql"; "CrearTablaBD.sql"
+IO Exception: "java.nio.file.NoSuchFileException: CrearTablaBD.sql"; "CrearTablaBD.sql"; SQL statement:
+RUNSCRIPT FROM 'CrearTablaBD.sql' [90031-230]
+[2024-08-12 20:21:37] [ ERROR] [OdontologoServiceTest:30] IO Exception: "java.nio.file.NoSuchFileException: CrearTablaBD.sql"; "CrearTablaBD.sql"
+IO Exception: "java.nio.file.NoSuchFileException: CrearTablaBD.sql"; "CrearTablaBD.sql"; SQL statement:
+RUNSCRIPT FROM 'CrearTablaBD.sql' [90031-230]
+[2024-08-12 20:22:03] [ ERROR] [OdontologoServiceTest:30] Error de Sintaxis en sentencia SQL "\000d\000a\000d\000acreate table Odontologos\000d\000a(\000d\000a    Id int Auto_Increment primary key,\000d\000a    NumeroMatricula int not null,\000d\000a    Nombre varchar(25) not null,\000d\000a    Apellido varchar(50) not null,\000d\000a[*])"; se esperaba "identifier"
+Syntax error in SQL statement "\000d\000a\000d\000acreate table Odontologos\000d\000a(\000d\000a    Id int Auto_Increment primary key,\000d\000a    NumeroMatricula int not null,\000d\000a    Nombre varchar(25) not null,\000d\000a    Apellido varchar(50) not null,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+
+create table Odontologos
+(
+    Id int Auto_Increment primary key,
+    NumeroMatricula int not null,
+    Nombre varchar(25) not null,
+    Apellido varchar(50) not null,
+) [42001-230]
+[2024-08-12 20:22:49] [ ERROR] [OdontologoServiceTest:30] Error de Sintaxis en sentencia SQL "\000d\000a\000d\000acreate table Odontologos\000d\000a(\000d\000a    Id int AUTO_INCREMENT primary key,\000d\000a    NumeroMatricula int not null,\000d\000a    Nombre varchar(25) not null,\000d\000a    Apellido varchar(50) not null,\000d\000a[*])"; se esperaba "identifier"
+Syntax error in SQL statement "\000d\000a\000d\000acreate table Odontologos\000d\000a(\000d\000a    Id int AUTO_INCREMENT primary key,\000d\000a    NumeroMatricula int not null,\000d\000a    Nombre varchar(25) not null,\000d\000a    Apellido varchar(50) not null,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+
+create table Odontologos
+(
+    Id int AUTO_INCREMENT primary key,
+    NumeroMatricula int not null,
+    Nombre varchar(25) not null,
+    Apellido varchar(50) not null,
+) [42001-230]
+[2024-08-12 20:32:27] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}
+[2024-08-12 20:32:27] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}
+[2024-08-12 20:32:27] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}
+[2024-08-12 20:32:27] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}
+[2024-08-12 20:32:27] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}
+[2024-08-12 20:32:27] [ INFO ] [DatoH2Odontologo:95] [Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}, Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}, Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}, Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}, Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}]
+[2024-08-12 20:33:06] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}
+[2024-08-12 20:33:06] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}
+[2024-08-12 20:33:06] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}
+[2024-08-12 20:33:06] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}
+[2024-08-12 20:33:06] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}
+[2024-08-12 20:33:06] [ INFO ] [DatoH2Odontologo:95] [Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}, Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}, Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}, Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}, Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}]
+[2024-08-12 20:33:48] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}
+[2024-08-12 20:33:48] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}
+[2024-08-12 20:33:48] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}
+[2024-08-12 20:33:48] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}
+[2024-08-12 20:33:48] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}
+[2024-08-12 20:33:48] [ INFO ] [DatoH2Odontologo:95] [Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}, Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}, Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}, Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}, Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}]
+[2024-08-12 20:34:21] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}
+[2024-08-12 20:34:21] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}
+[2024-08-12 20:34:21] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}
+[2024-08-12 20:34:21] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}
+[2024-08-12 20:34:21] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}
+[2024-08-12 20:34:21] [ INFO ] [DatoH2Odontologo:95] [Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}, Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}, Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}, Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}, Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}]
+[2024-08-12 20:34:36] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}
+[2024-08-12 20:34:36] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}
+[2024-08-12 20:34:36] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}
+[2024-08-12 20:34:36] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}
+[2024-08-12 20:34:36] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}
+[2024-08-12 20:34:36] [ INFO ] [DatoH2Odontologo:95] [Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}, Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}, Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}, Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}, Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}]
+[2024-08-12 20:43:30] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria: Odontologo{id=1, numeroMatricula=123546, Nombre='moises', Apellido='rojas'}
+[2024-08-12 20:45:44] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria: Odontologo{id=1, numeroMatricula=123548, Nombre='veronica', Apellido='valdez'}
+[2024-08-12 20:47:54] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria: Odontologo{id=1, numeroMatricula=123546, Nombre='moises', Apellido='rojas'}
+[2024-08-12 20:47:54] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria: Odontologo{id=2, numeroMatricula=123547, Nombre='luciana', Apellido='rossi'}
+[2024-08-12 20:47:54] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria: Odontologo{id=3, numeroMatricula=123548, Nombre='veronica', Apellido='valdez'}
+[2024-08-12 20:49:45] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria: Odontologo{id=1, numeroMatricula=123546, Nombre='moises', Apellido='rojas'}
+[2024-08-12 20:49:45] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria: Odontologo{id=2, numeroMatricula=123547, Nombre='luciana', Apellido='rossi'}
+[2024-08-12 20:49:45] [ INFO ] [DaoEnMemoria:18] Odontologo guardado en memoria: Odontologo{id=3, numeroMatricula=123548, Nombre='veronica', Apellido='valdez'}
+[2024-08-12 20:49:52] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}
+[2024-08-12 20:49:52] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}
+[2024-08-12 20:49:52] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}
+[2024-08-12 20:49:52] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}
+[2024-08-12 20:49:52] [ INFO ] [DatoH2Odontologo:92] Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}
+[2024-08-12 20:49:52] [ INFO ] [DatoH2Odontologo:95] [Odontologo{id=1, numeroMatricula=12345, Nombre='juan', Apellido='perez'}, Odontologo{id=2, numeroMatricula=12346, Nombre='ana', Apellido='ronda'}, Odontologo{id=3, numeroMatricula=12347, Nombre='miguel', Apellido='rojo'}, Odontologo{id=4, numeroMatricula=12348, Nombre='laura', Apellido='pomelo'}, Odontologo{id=5, numeroMatricula=12349, Nombre='tulio', Apellido='rodriguez'}]
